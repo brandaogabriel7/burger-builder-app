@@ -3,6 +3,8 @@ import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import styles from './layout.module.css';
 
+import PropTypes from 'prop-types';
+
 class Layout extends Component {
     state = {
         showSideDrawer: false
@@ -21,6 +23,10 @@ class Layout extends Component {
             </Fragment>
         );
     }
+
+    propTypes = {
+        children: PropTypes.any
+    };
 }
 
 export default Layout;

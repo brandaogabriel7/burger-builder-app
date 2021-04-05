@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import Backdrop from '../Backdrop/Backdrop';
 import styles from './modal.module.css';
 
+import PropTypes from 'prop-types';
+
 const Modal = ({ children, show, modalClosed }) => (
     <Fragment>
         <div
@@ -15,5 +17,11 @@ const Modal = ({ children, show, modalClosed }) => (
         <Backdrop show={show} clicked={modalClosed} />
     </Fragment>
 );
+
+Modal.propTypes = {
+    children: PropTypes.any,
+    show: PropTypes.bool,
+    modalClosed: PropTypes.func
+};
 
 export default Modal;

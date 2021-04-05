@@ -3,6 +3,8 @@ import styles from './buildcontrols.module.css';
 
 import BuildControl from './BuildControl/BuildControl';
 
+import PropTypes from 'prop-types';
+
 const controls = [
     { label: 'Salad', type: 'salad' },
     { label: 'Bacon', type: 'bacon' },
@@ -24,5 +26,14 @@ const BuildControls = ({ ingredientAdded, ingredientRemoved, disabled, price, pu
         <button onClick={ordered} className={styles.OrderButton} disabled={!purchasable}>ORDER NOW</button>
     </div>
 );
+
+BuildControls.propTypes = {
+    ingredientAdded: PropTypes.func,
+    ingredientRemoved: PropTypes.func,
+    disabled: PropTypes.bool,
+    price: PropTypes.number.isRequired,
+    purchasable: PropTypes.bool,
+    ordered: PropTypes.func
+};
 
 export default BuildControls;
