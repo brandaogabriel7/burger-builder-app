@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 import Burger from '../../components/Burger/Burger';
+import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
+import Modal from '../../components/UI/Modal/Modal';
 
 const INGREDIENT_PRICES = {
     salad: 0.5,
@@ -25,9 +27,9 @@ class BurgerBuilder extends Component {
         const sum = Object.keys(ingredients)
             .map(key => ingredients[key])
             .reduce((prev, curr) => prev + curr, 0);
-        
+
         return sum > 0;
-    }
+    };
 
     addIngredientHandler = (type) => {
         const oldCount = this.state.ingredients[type];
@@ -66,6 +68,9 @@ class BurgerBuilder extends Component {
         }
         return (
             <Fragment>
+                <Modal>
+                    <OrderSummary ingredients={this.state.ingredients} />
+                </Modal>
                 <Burger ingredients={this.state.ingredients} />
                 <BuildControls
                     price={this.state.totalPrice}
