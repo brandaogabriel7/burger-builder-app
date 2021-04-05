@@ -1,11 +1,12 @@
 import React from 'react';
 import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
+import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
 import styles from './toolbar.module.css';
 
-const Toolbar = () => (
+const Toolbar = ({ drawerToggleClicked }) => (
     <header className={styles.Toolbar}>
-        <div>MENU</div>
+        <DrawerToggle clicked={drawerToggleClicked} />
         <div className={styles.Logo}>
             <Logo />
         </div>
