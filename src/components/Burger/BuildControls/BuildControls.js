@@ -30,7 +30,7 @@ const BuildControls = ({ ingredientAdded, ingredientRemoved, disabled, price, pu
 BuildControls.propTypes = {
     ingredientAdded: PropTypes.func,
     ingredientRemoved: PropTypes.func,
-    disabled: PropTypes.bool,
+    disabled: PropTypes.object,
     price: PropTypes.number.isRequired,
     purchasable: PropTypes.bool,
     ordered: PropTypes.func

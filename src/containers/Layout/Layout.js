@@ -6,6 +6,10 @@ import styles from './layout.module.css';
 import PropTypes from 'prop-types';
 
 class Layout extends Component {
+    static propTypes = {
+        children: PropTypes.any
+    };
+
     state = {
         showSideDrawer: false
     };
@@ -24,9 +28,6 @@ class Layout extends Component {
         );
     }
 
-    propTypes = {
-        children: PropTypes.any
-    };
 }
 
 export default Layout;
