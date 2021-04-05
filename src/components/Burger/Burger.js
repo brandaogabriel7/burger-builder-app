@@ -3,6 +3,8 @@ import React from 'react';
 import styles from './burger.module.css';
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient';
 
+import PropTypes from 'prop-types';
+
 const Burger = ({ ingredients }) => {
     const ingredientElements = Object.keys(ingredients)
         .map((type) =>
@@ -20,6 +22,10 @@ const Burger = ({ ingredients }) => {
             <BurgerIngredient type="bread-bottom" />
         </div>
     );
+};
+
+Burger.propTypes = {
+    ingredients: PropTypes.object
 };
 
 export default Burger;

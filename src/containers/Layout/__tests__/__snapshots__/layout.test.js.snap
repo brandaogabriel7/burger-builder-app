@@ -1,0 +1,525 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`layout should match snapshot for {"type":"form","key":null,"ref":null,"props":{"children":[{"type":"input","key":null,"ref":null,"props":{"type":"text"},"_owner":null,"_store":{}},{"type":"button","key":null,"ref":null,"props":{"children":"Submit"},"_owner":null,"_store":{}}]},"_owner":null,"_store":{}} 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="Toolbar"
+      >
+        <div>
+          MENU
+        </div>
+        <div
+          class="Logo"
+        >
+          <div
+            class="Logo"
+          >
+            <img
+              alt="Burger Builder App Logo"
+              src="burger-logo.png"
+            />
+          </div>
+        </div>
+        <nav
+          class="DesktopOnly"
+        >
+          <ul
+            class="NavigationItems"
+          >
+            <li
+              class="NavigationItem"
+            >
+              <a
+                class="active"
+                href="/"
+              >
+                Burger Builder
+              </a>
+            </li>
+            <li
+              class="NavigationItem"
+            >
+              <a
+                href="/"
+              >
+                Checkout
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div
+        class="Backdrop"
+      />
+      <div
+        class="SideDrawer"
+      >
+        <div
+          class="Logo"
+        >
+          <div
+            class="Logo"
+          >
+            <img
+              alt="Burger Builder App Logo"
+              src="burger-logo.png"
+            />
+          </div>
+        </div>
+        <nav>
+          <ul
+            class="NavigationItems"
+          >
+            <li
+              class="NavigationItem"
+            >
+              <a
+                class="active"
+                href="/"
+              >
+                Burger Builder
+              </a>
+            </li>
+            <li
+              class="NavigationItem"
+            >
+              <a
+                href="/"
+              >
+                Checkout
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <main
+        class="Content"
+      >
+        <form>
+          <input
+            type="text"
+          />
+          <button>
+            Submit
+          </button>
+        </form>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="Toolbar"
+    >
+      <div>
+        MENU
+      </div>
+      <div
+        class="Logo"
+      >
+        <div
+          class="Logo"
+        >
+          <img
+            alt="Burger Builder App Logo"
+            src="burger-logo.png"
+          />
+        </div>
+      </div>
+      <nav
+        class="DesktopOnly"
+      >
+        <ul
+          class="NavigationItems"
+        >
+          <li
+            class="NavigationItem"
+          >
+            <a
+              class="active"
+              href="/"
+            >
+              Burger Builder
+            </a>
+          </li>
+          <li
+            class="NavigationItem"
+          >
+            <a
+              href="/"
+            >
+              Checkout
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div
+      class="Backdrop"
+    />
+    <div
+      class="SideDrawer"
+    >
+      <div
+        class="Logo"
+      >
+        <div
+          class="Logo"
+        >
+          <img
+            alt="Burger Builder App Logo"
+            src="burger-logo.png"
+          />
+        </div>
+      </div>
+      <nav>
+        <ul
+          class="NavigationItems"
+        >
+          <li
+            class="NavigationItem"
+          >
+            <a
+              class="active"
+              href="/"
+            >
+              Burger Builder
+            </a>
+          </li>
+          <li
+            class="NavigationItem"
+          >
+            <a
+              href="/"
+            >
+              Checkout
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main
+      class="Content"
+    >
+      <form>
+        <input
+          type="text"
+        />
+        <button>
+          Submit
+        </button>
+      </form>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`layout should match snapshot for {"type":"h1","key":null,"ref":null,"props":{"children":"batata"},"_owner":null,"_store":{}} 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="Toolbar"
+      >
+        <div>
+          MENU
+        </div>
+        <div
+          class="Logo"
+        >
+          <div
+            class="Logo"
+          >
+            <img
+              alt="Burger Builder App Logo"
+              src="burger-logo.png"
+            />
+          </div>
+        </div>
+        <nav
+          class="DesktopOnly"
+        >
+          <ul
+            class="NavigationItems"
+          >
+            <li
+              class="NavigationItem"
+            >
+              <a
+                class="active"
+                href="/"
+              >
+                Burger Builder
+              </a>
+            </li>
+            <li
+              class="NavigationItem"
+            >
+              <a
+                href="/"
+              >
+                Checkout
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div
+        class="Backdrop"
+      />
+      <div
+        class="SideDrawer"
+      >
+        <div
+          class="Logo"
+        >
+          <div
+            class="Logo"
+          >
+            <img
+              alt="Burger Builder App Logo"
+              src="burger-logo.png"
+            />
+          </div>
+        </div>
+        <nav>
+          <ul
+            class="NavigationItems"
+          >
+            <li
+              class="NavigationItem"
+            >
+              <a
+                class="active"
+                href="/"
+              >
+                Burger Builder
+              </a>
+            </li>
+            <li
+              class="NavigationItem"
+            >
+              <a
+                href="/"
+              >
+                Checkout
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <main
+        class="Content"
+      >
+        <h1>
+          batata
+        </h1>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="Toolbar"
+    >
+      <div>
+        MENU
+      </div>
+      <div
+        class="Logo"
+      >
+        <div
+          class="Logo"
+        >
+          <img
+            alt="Burger Builder App Logo"
+            src="burger-logo.png"
+          />
+        </div>
+      </div>
+      <nav
+        class="DesktopOnly"
+      >
+        <ul
+          class="NavigationItems"
+        >
+          <li
+            class="NavigationItem"
+          >
+            <a
+              class="active"
+              href="/"
+            >
+              Burger Builder
+            </a>
+          </li>
+          <li
+            class="NavigationItem"
+          >
+            <a
+              href="/"
+            >
+              Checkout
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div
+      class="Backdrop"
+    />
+    <div
+      class="SideDrawer"
+    >
+      <div
+        class="Logo"
+      >
+        <div
+          class="Logo"
+        >
+          <img
+            alt="Burger Builder App Logo"
+            src="burger-logo.png"
+          />
+        </div>
+      </div>
+      <nav>
+        <ul
+          class="NavigationItems"
+        >
+          <li
+            class="NavigationItem"
+          >
+            <a
+              class="active"
+              href="/"
+            >
+              Burger Builder
+            </a>
+          </li>
+          <li
+            class="NavigationItem"
+          >
+            <a
+              href="/"
+            >
+              Checkout
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main
+      class="Content"
+    >
+      <h1>
+        batata
+      </h1>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
