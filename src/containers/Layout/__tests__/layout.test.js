@@ -30,9 +30,6 @@ const matchSnapshotTestCases = [
 describe('layout should', () => {
     it('render correctly', () => {
         render(<Layout />);
-        expect(
-            screen.getByText(/toolbar, sidedrawer, backdrop/i)
-        ).toBeInTheDocument();
     });
 
     it.each(renderChildrenTestCases)(
