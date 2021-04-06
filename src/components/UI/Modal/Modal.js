@@ -25,4 +25,6 @@ Modal.propTypes = {
     modalClosed: PropTypes.func
 };
 
-export default memo(Modal, (props, nextProps) => props.show === nextProps.show);
+export default memo(Modal, (props, nextProps) => {
+    return props.show === nextProps.show && props.children === nextProps.children;
+});
