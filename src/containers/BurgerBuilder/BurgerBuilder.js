@@ -4,6 +4,8 @@ import Burger from '../../components/Burger/Burger';
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
 import Modal from '../../components/UI/Modal/Modal';
 
+import ordersApi from '../../axios-orders';
+
 const INGREDIENT_PRICES = {
     salad: 0.5,
     cheese: 0.4,
@@ -69,7 +71,24 @@ class BurgerBuilder extends Component {
     };
 
     purchaseContinueHandler = () => {
-        alert('continue');
+        // alert('continue');
+        const order = {
+            ingredients: this.state.ingredients,
+            price: this.state.totalPrice,
+            customer: {
+                name: 'Brands',
+                address: {
+                    street: 'Rua dos bobos',
+                    zipCode: '32000-000',
+                    country: 'New Zealand'
+                },
+                email: 'myemail@burger.app'
+            },
+            deliveryMethod: 'fastest'
+        };
+        ordersApi.post('/orders.json', order)
+            .then(response => console.log(response))
+            .catch(err => console.log(err));
     };
 
     render() {
